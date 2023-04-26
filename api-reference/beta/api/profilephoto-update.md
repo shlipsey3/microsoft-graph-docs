@@ -25,35 +25,23 @@ The following tables show the least privileged permission or permissions require
 
 ### To update the profile photo of a contact
 
-|Permission type      | Least privileged permissions             | Higher privileged permissions             |
-|:--------------------|:-----------------------------------------|:------------------------------------------|
-|Delegated (work or school account)      |   Contacts.ReadWrite           | Contacts.ReadWrite.Shared |
-|Delegated (personal Microsoft account)      |   Not supported.            | Not supported. |
-|Application      |    Contacts.ReadWrite           | Not supported. |
+<!-- { "blockType": "permissions", "name": "profilephoto_update" } -->
+[!INCLUDE [permissions-table](../includes/permissions/profilephoto-update-permissions.md)]
 
 ### To update the profile photo of a group
 
-|Permission type      | Least privileged permissions             | Higher privileged permissions             |
-|:--------------------|:-----------------------------------------|:------------------------------------------|
-|Delegated (work or school account)      |   Group.ReadWrite.All           | Not supported. |
-|Delegated (personal Microsoft account)      |   Not supported.            | Not supported. |
-|Application      |    Group.ReadWrite.All           | Not supported. |
+<!-- { "blockType": "permissions", "name": "profilephoto_update_2" } -->
+[!INCLUDE [permissions-table](../includes/permissions/profilephoto-update-2-permissions.md)]
 
 ### To update the profile photo of a team
 
-|Permission type      | Least privileged permissions             | Higher privileged permissions             |
-|:--------------------|:-----------------------------------------|:------------------------------------------|
-| Delegated (work or school account)     | TeamSettings.ReadWrite.All | Group.ReadWrite.All*, Directory.ReadWrite.All* |
-| Delegated (personal Microsoft account) | Not supported.                                                         | Not supported. |
-| Application                            | Not supported.                                                         | Not supported. |
+<!-- { "blockType": "permissions", "name": "profilephoto_update_3" } -->
+[!INCLUDE [permissions-table](../includes/permissions/profilephoto-update-3-permissions.md)]
 
 ### To update the profile photo of the signed-in user
 
-|Permission type      | Least privileged permissions             | Higher privileged permissions             |
-|:--------------------|:-----------------------------------------|:------------------------------------------|
-|Delegated (work or school account)      |   User.ReadWrite | User.ReadWrite.All           |
-|Delegated (personal Microsoft account)      |   Not supported.            | Not supported. |
-|Application      |    User.ReadWrite.All           | Not supported. |
+<!-- { "blockType": "permissions", "name": "profilephoto_update_4" } -->
+[!INCLUDE [permissions-table](../includes/permissions/profilephoto-update-4-permissions.md)]
 
 > [!NOTE]
 > - There is currently a [known issue](/graph/known-issues#groups) with accessing group photos using application permissions.
