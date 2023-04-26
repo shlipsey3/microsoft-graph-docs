@@ -19,11 +19,8 @@ Delete a [learningCourseActivity](../resources/learningcourseactivity.md) object
 
 One of the following permissions is required to call this API based on the type of learning course activity. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-| Permission type                        | Permissions (from least to most privileged)                                     |
-|:---------------------------------------|:--------------------------------------------------------------------------------|
-| Delegated (work or school account)     | Not supported.                                                                  |
-| Delegated (personal Microsoft account) | Not supported.                                                                  |
-| Application                            | LearningAssignedCourse.ReadWrite.All, LearningSelfInitiatedCourse.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "learningcourseactivity_delete" } -->
+[!INCLUDE [permissions-table](../includes/permissions/learningcourseactivity-delete-permissions.md)]
 
 ## HTTP request
 
