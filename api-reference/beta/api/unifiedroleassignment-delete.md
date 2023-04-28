@@ -21,27 +21,18 @@ Depending on the RBAC provider and the permission type (delegated or application
 
 ### For Directory (Azure AD) provider
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) |  RoleManagement.ReadWrite.Directory   |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | RoleManagement.ReadWrite.Directory |
+<!-- { "blockType": "permissions", "name": "unifiedroleassignment_delete" } -->
+[!INCLUDE [permissions-table](../includes/permissions/unifiedroleassignment-delete-permissions.md)]
 
 ### For Entitlement management provider
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) |  EntitlementManagement.ReadWrite.All  |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | Not supported. |
+<!-- { "blockType": "permissions", "name": "unifiedroleassignment_delete_2" } -->
+[!INCLUDE [permissions-table](../includes/permissions/unifiedroleassignment-delete-2-permissions.md)]
 
 ### For an Exchange Online provider
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) |  RoleManagement.ReadWrite.Exchange   |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | Not supported. |
+<!-- { "blockType": "permissions", "name": "unifiedroleassignment_delete_3" } -->
+[!INCLUDE [permissions-table](../includes/permissions/unifiedroleassignment-delete-3-permissions.md)]
 
 ## HTTP request
 
